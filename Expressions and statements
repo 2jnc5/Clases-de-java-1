@@ -1,0 +1,31 @@
+Expresion (Evalua)
+x=3
+x+2=5
+
+Statement (It states a change, products an effect)
+x=3
+x=x+1
+x=4
+
+ES LO MISMO DECIR
+x=x+1;
+x+=1;
+++x; (SOLO sirve para incrementar de a 1)
+x++; (SOLO sirve para incrementar de a 1)
+Todos los operadores funcionan de la misma manera
+
+public class Main {
+
+	public static void main(String[] args) {
+		int a = 0;  
+		int b = a + 1; a=1
+		int c = (2*3)+5*4; c=26
+		int d = c++; d= 27
+		int f = --c; f= 26
+		
+		System.out.println(d); 27
+		System.out.println(d+1); 28
+		System.out.println(c%2); 0
+		System.out.println(3+4+f*2); 59
+	}
+}
