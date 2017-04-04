@@ -1,0 +1,11 @@
+if (n<0)  {
+ x=-n;
+}
+else  {
+ x=n;
+}
+/*
+*Esto va a volver el numero positivo
+*Si n<0 se va a ejecutar el primero comando, si no se ejecutara el segundo
+*El else
+*/
